@@ -1,0 +1,42 @@
+server:
+  port: 9990
+  address: localhost
+
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/three_kingdom
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: test
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+#配置项目热部署
+  devtools:
+    restart:
+      enabled: true
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 127.0.0.1:9300
+  session:
+    store-type: REDIS
+    redis:
+      flush-mode: immediate
+
+
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: nianyang.mny.entity
+  config-location: classpath:mybatis/mybatis-config.xml
+
+zk:
+  url : 127.0.0.1:2181

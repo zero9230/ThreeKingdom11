@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ThreeKingdom11">
+    <output-path>$PROJECT_DIR$/out/artifacts/ThreeKingdom11</output-path>
+    <root id="archive" name="ThreeKingdom11.war" />
+  </artifact>
+</component>
