@@ -11,7 +11,7 @@
          http://www.springframework.org/schema/aop/spring-aop-2.0.xsd"
        default-autowire="byName">
 
-    <bean id="spuDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <bean id="userDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="nianyang.mny.dao.UserDAO"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactorySpu"/>
     </bean>

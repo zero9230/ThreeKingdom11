@@ -23,11 +23,6 @@
 <!--            <artifactId>ThreeKingdom11-core</artifactId>-->
 <!--            <version>1.0-SNAPSHOT</version>-->
 <!--        </dependency>-->
-        <dependency>
-            <groupId>com.taobao.quality</groupId>
-            <artifactId>qualitycenter-common</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
-        </dependency>
 
 
     </dependencies>

@@ -125,17 +125,6 @@
             <version>2.12.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.taobao.quality</groupId>
-            <artifactId>qualitycenter-common</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.taobao.quality</groupId>
-            <artifactId>qualitycenter-client</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
 
 
