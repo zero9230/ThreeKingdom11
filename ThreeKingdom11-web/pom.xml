@@ -11,12 +11,11 @@
 
     <artifactId>ThreeKingdom11-web</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>nianyang.mny</groupId>
-            <artifactId>ThreeKingdom11-core</artifactId>
-            <version>${threeKingdom.version}</version>
-        </dependency>
-    </dependencies>
-
+        <dependencies>
+            <dependency>
+                <groupId>nianyang.mny</groupId>
+                <artifactId>ThreeKingdom11-core</artifactId>
+                <version>${threeKingdom.version}</version>
+            </dependency>
+        </dependencies>
 </project>

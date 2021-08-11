@@ -25,7 +25,7 @@
         </property>
     </bean>
 
-    <bean id="threeKingdomDataSource" class="com.mysql.cj.jdbc.MysqlConnectionPoolDataSource">
+    <bean id="threeKingdomDataSource"  class="com.mysql.cj.jdbc.MysqlConnectionPoolDataSource">
 
         <property name="user" value="root"/>
         <property name="password" value="root"/>
